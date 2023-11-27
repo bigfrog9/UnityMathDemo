@@ -317,7 +317,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30f6cf9ccd0665c4dbabf16a42933d36, type: 3}
   m_Name: 
@@ -347,9 +347,92 @@ MonoBehaviour:
   PlatinumChestRare: 150
   PlatinumChestEpic: 200
   PlatinumChestLegendary: 300
+--- !u!1 &1707205729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1707205731}
+  - component: {fileID: 1707205730}
+  m_Layer: 0
+  m_Name: List2 Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1707205730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707205729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d866467570eec9d4c935472f19195676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chestAwarded: 
+  prizeAwarded: 
+  WoodChest: 100
+  BronzeChest: 75
+  SilverChest: 50
+  GoldChest: 25
+  PlatinumChest: 1
+  woodChestCommon: 100
+  woodChestUncommon: 75
+  woodChestRare: 50
+  woodChestEpic: 25
+  woodChestLegendary: 1
+  bronzeChestCommon: 75
+  bronzeChestUncommon: 75
+  bronzeChestRare: 50
+  bronzeChestEpic: 25
+  bronzeChestLegendary: 1
+  silverChestCommon: 50
+  silverChestUncommon: 75
+  silverChestRare: 75
+  silverChestEpic: 25
+  silverChestLegendary: 1
+  goldChestCommon: 25
+  goldChestUncommon: 75
+  goldChestRare: 75
+  goldChestEpic: 50
+  goldChestLegendary: 25
+  platinumChestCommon: 1
+  platinumChestUncommon: 1
+  platinumChestRare: 50
+  platinumChestEpic: 75
+  platinumChestLegendary: 100
+  ChestPool: []
+  woodChestDrop: []
+  bronzeChestDrop: []
+  silverChestDrop: []
+  goldChestDrop: []
+  platinumChestDrop: []
+--- !u!4 &1707205731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707205729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 705507995}
+  - {fileID: 1707205731}
